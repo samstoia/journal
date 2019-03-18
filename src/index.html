@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Journal</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form id="entryForm">
+      <label for="title">Title</label>
+      <input id="title" name="title" required>
+      <label for="body">Write your post here</label>
+      <input id="body" name="body" required class="body">
+      <button type="submit">Create Post</button>
+    </form>
+
+    <div class="teaserText">
+      <h3 id="teaserText"></h3>
+    </div>
+
+    <div class="post">
+      <h3 id="titleOutput"></h3>
+      <p id="bodyOutput"></p>
+    </div>
+
+    <div class="container">
+      <p>Words:</p>
+      <div class="bodyCount">
+        <p id="bodyCount"></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Vowels:</p>
+      <div class="vowelCount">
+        <p id="vowelCount"></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Consonants:</p>
+      <div class="consonantCount">
+        <p id="consonantCount"></p>
+      </div>
+    </div>
+  </body>
+</html>

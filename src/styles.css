@@ -1,0 +1,17 @@
+.bodyCount, .vowelCount, .consonantCount{
+  height:40px;
+  width: 40px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #AAAAAA;
+  margin-top: 25px;
+}
+
+.teaserText{
+  height:40px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #AAAAAA;
+  margin-top: 25px;
+}
